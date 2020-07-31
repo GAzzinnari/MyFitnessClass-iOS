@@ -24,12 +24,22 @@ class LoginController: UIViewController {
     @IBOutlet weak var usernameLabel: UILabel!
     @IBOutlet weak var loginButton: UIButton!
     
+    // MARK: Properties
+    weak var windowDelegate: WindowDelegate?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.setupViews()
     }
-
+    
+    // MARK: Actions
+    @IBAction func didTapLoginButton(_ sender: Any) {
+        #warning("TODO: Add real logic when working on login feature")
+        let dashboardController = DashboardController()
+        self.windowDelegate?.setRootController(dashboardController)
+    }
+    
     // MARK: Private methods
     private func setupViews() {
         self.usernameLabel.text = ViewConstants.username
