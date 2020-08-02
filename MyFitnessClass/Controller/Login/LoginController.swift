@@ -10,7 +10,7 @@ import UIKit
 
 class LoginController: UIViewController {
     // MARK: Constants, enums
-    private enum ViewConstants {
+    private enum LoginConstants {
         static let username = "Username"
         static let password = "Password"
         static let loginButton = "Login"
@@ -42,8 +42,8 @@ class LoginController: UIViewController {
     
     // MARK: Private methods
     private func setupViews() {
-        self.usernameLabel.text = ViewConstants.username
-        self.passwordLabel.text = ViewConstants.password
-        self.loginButton.setTitle(ViewConstants.loginButton, for: .normal)
+        self.usernameLabel.text = LoginConstants.username
+        self.passwordLabel.text = LoginConstants.password
+        self.loginButton.setTitle(LoginConstants.loginButton, for: .normal)
     }
 }

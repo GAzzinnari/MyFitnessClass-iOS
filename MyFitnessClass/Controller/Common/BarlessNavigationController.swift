@@ -19,6 +19,10 @@ class BarlessNavigationController: UINavigationController {
         self.pushViewController(rootViewController, animated: false)
     }
     
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+    }
+    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }

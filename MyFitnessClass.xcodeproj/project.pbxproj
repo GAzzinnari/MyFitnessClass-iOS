@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		2AEF3D61A05D3DDB3DC3890B /* Pods_MyFitnessClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035F9D4645F333C757DC6D77 /* Pods_MyFitnessClass.framework */; };
 		5E36A2C303EAF771228ADC20 /* Pods_MyFitnessClassTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40123D9E3F7BCC7CACF21F41 /* Pods_MyFitnessClassTests.framework */; };
+		C04CF50F24D6EBBD00A7F038 /* ScheduleNewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04CF50D24D6EBBD00A7F038 /* ScheduleNewController.swift */; };
+		C04CF51024D6EBBD00A7F038 /* ScheduleNewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04CF50E24D6EBBD00A7F038 /* ScheduleNewController.xib */; };
+		C060C2D824D4E52700CCE603 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060C2D724D4E52700CCE603 /* ButtonView.swift */; };
 		C06EEB2624BFC63300E7D574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06EEB2524BFC63300E7D574 /* AppDelegate.swift */; };
 		C06EEB2F24BFC63300E7D574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06EEB2E24BFC63300E7D574 /* Assets.xcassets */; };
 		C06EEB3224BFC63300E7D574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06EEB3024BFC63300E7D574 /* LaunchScreen.storyboard */; };
@@ -41,6 +44,9 @@
 		40123D9E3F7BCC7CACF21F41 /* Pods_MyFitnessClassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFitnessClassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE3C04164F1EADD7B59BC73 /* Pods-MyFitnessClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFitnessClass.release.xcconfig"; path = "Target Support Files/Pods-MyFitnessClass/Pods-MyFitnessClass.release.xcconfig"; sourceTree = "<group>"; };
 		B44C222F032EB097D1F5088F /* Pods-MyFitnessClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFitnessClass.debug.xcconfig"; path = "Target Support Files/Pods-MyFitnessClass/Pods-MyFitnessClass.debug.xcconfig"; sourceTree = "<group>"; };
+		C04CF50D24D6EBBD00A7F038 /* ScheduleNewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleNewController.swift; sourceTree = "<group>"; };
+		C04CF50E24D6EBBD00A7F038 /* ScheduleNewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleNewController.xib; sourceTree = "<group>"; };
+		C060C2D724D4E52700CCE603 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		C06EEB2224BFC63300E7D574 /* MyFitnessClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFitnessClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06EEB2524BFC63300E7D574 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C06EEB2E24BFC63300E7D574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,6 +106,14 @@
 				40123D9E3F7BCC7CACF21F41 /* Pods_MyFitnessClassTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C060C2D624D4E46700CCE603 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C060C2D724D4E52700CCE603 /* ButtonView.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		C06EEB1924BFC63300E7D574 = {
@@ -184,6 +198,8 @@
 		C0B9B19824BFCE9100160F39 /* Schedule */ = {
 			isa = PBXGroup;
 			children = (
+				C04CF50D24D6EBBD00A7F038 /* ScheduleNewController.swift */,
+				C04CF50E24D6EBBD00A7F038 /* ScheduleNewController.xib */,
 			);
 			path = Schedule;
 			sourceTree = "<group>";
@@ -191,6 +207,7 @@
 		C0B9B1A124BFD7B800160F39 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C060C2D624D4E46700CCE603 /* Common */,
 				C0B9B1A224BFD7C400160F39 /* Cell */,
 			);
 			path = View;
@@ -334,6 +351,7 @@
 				C0B9B1A024BFD44B00160F39 /* DashboardController.xib in Resources */,
 				C06EEB3224BFC63300E7D574 /* LaunchScreen.storyboard in Resources */,
 				C0B9B19C24BFCEEA00160F39 /* LoginController.xib in Resources */,
+				C04CF51024D6EBBD00A7F038 /* ScheduleNewController.xib in Resources */,
 				C0B9B1AC24BFD8DA00160F39 /* LoadingCell.xib in Resources */,
 				C0B9B1B424C11B8F00160F39 /* ImageTitleCell.xib in Resources */,
 				C06EEB2F24BFC63300E7D574 /* Assets.xcassets in Resources */,
@@ -408,7 +426,9 @@
 				C0B9B1BC24C122C900160F39 /* BarlessNavigationController.swift in Sources */,
 				C0B9B1AB24BFD8DA00160F39 /* LoadingCell.swift in Sources */,
 				C0B9B1B924C1202900160F39 /* WindowDelegate.swift in Sources */,
+				C060C2D824D4E52700CCE603 /* ButtonView.swift in Sources */,
 				C0B9B19B24BFCEEA00160F39 /* LoginController.swift in Sources */,
+				C04CF50F24D6EBBD00A7F038 /* ScheduleNewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
