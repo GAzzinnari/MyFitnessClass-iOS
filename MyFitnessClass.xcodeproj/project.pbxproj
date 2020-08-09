@@ -15,6 +15,8 @@
 		C06EEB2624BFC63300E7D574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06EEB2524BFC63300E7D574 /* AppDelegate.swift */; };
 		C06EEB2F24BFC63300E7D574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06EEB2E24BFC63300E7D574 /* Assets.xcassets */; };
 		C06EEB3224BFC63300E7D574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06EEB3024BFC63300E7D574 /* LaunchScreen.storyboard */; };
+		C074000424D9F43000DDD7CB /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C074000324D9F43000DDD7CB /* Environment.swift */; };
+		C074000824D9FEB500DDD7CB /* EnvironmentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C074000724D9FEB500DDD7CB /* EnvironmentTest.swift */; };
 		C0B9B19B24BFCEEA00160F39 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B9B19924BFCEEA00160F39 /* LoginController.swift */; };
 		C0B9B19C24BFCEEA00160F39 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0B9B19A24BFCEEA00160F39 /* LoginController.xib */; };
 		C0B9B19F24BFD44B00160F39 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B9B19D24BFD44B00160F39 /* DashboardController.swift */; };
@@ -40,8 +42,11 @@
 
 /* Begin PBXFileReference section */
 		035F9D4645F333C757DC6D77 /* Pods_MyFitnessClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFitnessClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F19B0838A8286F6950A07E /* Pods-MyFitnessClass.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFitnessClass.development.xcconfig"; path = "Target Support Files/Pods-MyFitnessClass/Pods-MyFitnessClass.development.xcconfig"; sourceTree = "<group>"; };
 		31B13D7502FE490DB3A6C7D1 /* Pods-MyFitnessClassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFitnessClassTests.debug.xcconfig"; path = "Target Support Files/Pods-MyFitnessClassTests/Pods-MyFitnessClassTests.debug.xcconfig"; sourceTree = "<group>"; };
 		40123D9E3F7BCC7CACF21F41 /* Pods_MyFitnessClassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFitnessClassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64905FF9C4AF6B5D5E2E491D /* Pods-MyFitnessClassTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFitnessClassTests.staging.xcconfig"; path = "Target Support Files/Pods-MyFitnessClassTests/Pods-MyFitnessClassTests.staging.xcconfig"; sourceTree = "<group>"; };
+		83168A9D65CA9A90CA321D6A /* Pods-MyFitnessClass.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFitnessClass.staging.xcconfig"; path = "Target Support Files/Pods-MyFitnessClass/Pods-MyFitnessClass.staging.xcconfig"; sourceTree = "<group>"; };
 		8EE3C04164F1EADD7B59BC73 /* Pods-MyFitnessClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFitnessClass.release.xcconfig"; path = "Target Support Files/Pods-MyFitnessClass/Pods-MyFitnessClass.release.xcconfig"; sourceTree = "<group>"; };
 		B44C222F032EB097D1F5088F /* Pods-MyFitnessClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFitnessClass.debug.xcconfig"; path = "Target Support Files/Pods-MyFitnessClass/Pods-MyFitnessClass.debug.xcconfig"; sourceTree = "<group>"; };
 		C04CF50D24D6EBBD00A7F038 /* ScheduleNewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleNewController.swift; sourceTree = "<group>"; };
@@ -54,6 +59,11 @@
 		C06EEB3324BFC63300E7D574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C06EEB3824BFC63400E7D574 /* MyFitnessClassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFitnessClassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06EEB3E24BFC63400E7D574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C074000324D9F43000DDD7CB /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		C074000724D9FEB500DDD7CB /* EnvironmentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentTest.swift; sourceTree = "<group>"; };
+		C095078124D9EF2A0084CD14 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Development.xcconfig; path = ../Development.xcconfig; sourceTree = "<group>"; };
+		C095078224D9EF3D0084CD14 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Staging.xcconfig; path = ../Staging.xcconfig; sourceTree = "<group>"; };
+		C095078324D9EF510084CD14 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = ../Release.xcconfig; sourceTree = "<group>"; };
 		C0B9B19924BFCEEA00160F39 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		C0B9B19A24BFCEEA00160F39 /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
 		C0B9B19D24BFD44B00160F39 /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
@@ -66,6 +76,7 @@
 		C0B9B1B824C1202900160F39 /* WindowDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowDelegate.swift; sourceTree = "<group>"; };
 		C0B9B1BB24C122C900160F39 /* BarlessNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarlessNavigationController.swift; sourceTree = "<group>"; };
 		E6929ADC79C303019EDBE557 /* Pods-MyFitnessClassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFitnessClassTests.release.xcconfig"; path = "Target Support Files/Pods-MyFitnessClassTests/Pods-MyFitnessClassTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC2A8037B28D4B2C8ABA03DE /* Pods-MyFitnessClassTests.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFitnessClassTests.development.xcconfig"; path = "Target Support Files/Pods-MyFitnessClassTests/Pods-MyFitnessClassTests.development.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +106,10 @@
 				8EE3C04164F1EADD7B59BC73 /* Pods-MyFitnessClass.release.xcconfig */,
 				31B13D7502FE490DB3A6C7D1 /* Pods-MyFitnessClassTests.debug.xcconfig */,
 				E6929ADC79C303019EDBE557 /* Pods-MyFitnessClassTests.release.xcconfig */,
+				05F19B0838A8286F6950A07E /* Pods-MyFitnessClass.development.xcconfig */,
+				83168A9D65CA9A90CA321D6A /* Pods-MyFitnessClass.staging.xcconfig */,
+				EC2A8037B28D4B2C8ABA03DE /* Pods-MyFitnessClassTests.development.xcconfig */,
+				64905FF9C4AF6B5D5E2E491D /* Pods-MyFitnessClassTests.staging.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -139,13 +154,13 @@
 		C06EEB2424BFC63300E7D574 /* MyFitnessClass */ = {
 			isa = PBXGroup;
 			children = (
+				C095078024D9EDE80084CD14 /* Config */,
 				C0B9B19524BFCE7500160F39 /* Controller */,
 				C06EEB4924BFC6DE00E7D574 /* Delegate */,
 				C0B9B1AD24BFDB4A00160F39 /* Model */,
 				C0B9B1A124BFD7B800160F39 /* View */,
 				C06EEB2E24BFC63300E7D574 /* Assets.xcassets */,
 				C06EEB3024BFC63300E7D574 /* LaunchScreen.storyboard */,
-				C06EEB3324BFC63300E7D574 /* Info.plist */,
 			);
 			path = MyFitnessClass;
 			sourceTree = "<group>";
@@ -153,6 +168,7 @@
 		C06EEB3B24BFC63400E7D574 /* MyFitnessClassTests */ = {
 			isa = PBXGroup;
 			children = (
+				C074000524D9FE4F00DDD7CB /* Config */,
 				C06EEB3E24BFC63400E7D574 /* Info.plist */,
 			);
 			path = MyFitnessClassTests;
@@ -164,6 +180,34 @@
 				C0B9B1B524C11FB100160F39 /* App */,
 			);
 			path = Delegate;
+			sourceTree = "<group>";
+		};
+		C074000524D9FE4F00DDD7CB /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				C074000724D9FEB500DDD7CB /* EnvironmentTest.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		C074000924DFAD7F00DDD7CB /* Env */ = {
+			isa = PBXGroup;
+			children = (
+				C095078124D9EF2A0084CD14 /* Development.xcconfig */,
+				C095078224D9EF3D0084CD14 /* Staging.xcconfig */,
+				C095078324D9EF510084CD14 /* Release.xcconfig */,
+			);
+			path = Env;
+			sourceTree = "<group>";
+		};
+		C095078024D9EDE80084CD14 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				C074000924DFAD7F00DDD7CB /* Env */,
+				C06EEB3324BFC63300E7D574 /* Info.plist */,
+				C074000324D9F43000DDD7CB /* Environment.swift */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 		C0B9B19524BFCE7500160F39 /* Controller */ = {
@@ -320,6 +364,7 @@
 					};
 					C06EEB3724BFC63400E7D574 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 						TestTargetID = C06EEB2124BFC63300E7D574;
 					};
 				};
@@ -426,6 +471,7 @@
 				C0B9B1BC24C122C900160F39 /* BarlessNavigationController.swift in Sources */,
 				C0B9B1AB24BFD8DA00160F39 /* LoadingCell.swift in Sources */,
 				C0B9B1B924C1202900160F39 /* WindowDelegate.swift in Sources */,
+				C074000424D9F43000DDD7CB /* Environment.swift in Sources */,
 				C060C2D824D4E52700CCE603 /* ButtonView.swift in Sources */,
 				C0B9B19B24BFCEEA00160F39 /* LoginController.swift in Sources */,
 				C04CF50F24D6EBBD00A7F038 /* ScheduleNewController.swift in Sources */,
@@ -436,6 +482,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C074000824D9FEB500DDD7CB /* EnvironmentTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,8 +508,108 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C06EEB3F24BFC63400E7D574 /* Debug */ = {
+		C06EEB4024BFC63400E7D574 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C095078324D9EF510084CD14 /* Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C06EEB4324BFC63400E7D574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C095078324D9EF510084CD14 /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MyFitnessClass/Config/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyFitnessClass;
+				PRODUCT_NAME = MyFitnessClass;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C06EEB4624BFC63400E7D574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C095078324D9EF510084CD14 /* Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64LKX3V53H;
+				INFOPLIST_FILE = MyFitnessClassTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyFitnessClassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFitnessClass.app/MyFitnessClass";
+			};
+			name = Release;
+		};
+		C095078424D9F06D0084CD14 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C095078124D9EF2A0084CD14 /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -519,10 +666,56 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = Development;
 		};
-		C06EEB4024BFC63400E7D574 /* Release */ = {
+		C095078524D9F06D0084CD14 /* Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C095078124D9EF2A0084CD14 /* Development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MyFitnessClass/Config/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.MyFitnessClass-QA";
+				PRODUCT_NAME = MyFitnessClass;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Development;
+		};
+		C095078624D9F06D0084CD14 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C095078124D9EF2A0084CD14 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64LKX3V53H;
+				INFOPLIST_FILE = MyFitnessClassTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyFitnessClassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFitnessClass.app/MyFitnessClass";
+			};
+			name = Development;
+		};
+		C095078724D9F0870084CD14 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C095078224D9EF3D0084CD14 /* Staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -554,11 +747,17 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -566,61 +765,42 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Release;
+			name = Staging;
 		};
-		C06EEB4224BFC63400E7D574 /* Debug */ = {
+		C095078824D9F0870084CD14 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B44C222F032EB097D1F5088F /* Pods-MyFitnessClass.debug.xcconfig */;
+			baseConfigurationReference = C095078224D9EF3D0084CD14 /* Staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 64LKX3V53H;
-				INFOPLIST_FILE = MyFitnessClass/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MyFitnessClass/Config/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyFitnessClass;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.MyFitnessClass-Beta";
+				PRODUCT_NAME = MyFitnessClass;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
-			name = Debug;
+			name = Staging;
 		};
-		C06EEB4324BFC63400E7D574 /* Release */ = {
+		C095078924D9F0870084CD14 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EE3C04164F1EADD7B59BC73 /* Pods-MyFitnessClass.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 64LKX3V53H;
-				INFOPLIST_FILE = MyFitnessClass/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyFitnessClass;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		C06EEB4524BFC63400E7D574 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31B13D7502FE490DB3A6C7D1 /* Pods-MyFitnessClassTests.debug.xcconfig */;
+			baseConfigurationReference = C095078224D9EF3D0084CD14 /* Staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64LKX3V53H;
 				INFOPLIST_FILE = MyFitnessClassTests/Info.plist;
@@ -632,34 +812,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyFitnessClassTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFitnessClass.app/MyFitnessClass";
 			};
-			name = Debug;
-		};
-		C06EEB4624BFC63400E7D574 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6929ADC79C303019EDBE557 /* Pods-MyFitnessClassTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 64LKX3V53H;
-				INFOPLIST_FILE = MyFitnessClassTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyFitnessClassTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFitnessClass.app/MyFitnessClass";
-			};
-			name = Release;
+			name = Staging;
 		};
 /* End XCBuildConfiguration section */
 
@@ -667,7 +825,8 @@
 		C06EEB1D24BFC63300E7D574 /* Build configuration list for PBXProject "MyFitnessClass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C06EEB3F24BFC63400E7D574 /* Debug */,
+				C095078424D9F06D0084CD14 /* Development */,
+				C095078724D9F0870084CD14 /* Staging */,
 				C06EEB4024BFC63400E7D574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -676,7 +835,8 @@
 		C06EEB4124BFC63400E7D574 /* Build configuration list for PBXNativeTarget "MyFitnessClass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C06EEB4224BFC63400E7D574 /* Debug */,
+				C095078524D9F06D0084CD14 /* Development */,
+				C095078824D9F0870084CD14 /* Staging */,
 				C06EEB4324BFC63400E7D574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -685,7 +845,8 @@
 		C06EEB4424BFC63400E7D574 /* Build configuration list for PBXNativeTarget "MyFitnessClassTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C06EEB4524BFC63400E7D574 /* Debug */,
+				C095078624D9F06D0084CD14 /* Development */,
+				C095078924D9F0870084CD14 /* Staging */,
 				C06EEB4624BFC63400E7D574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
