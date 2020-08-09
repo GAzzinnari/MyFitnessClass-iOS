@@ -1,0 +1,3 @@
+[submodule "MyFitnessClass/Config/Env"]
+	path = MyFitnessClass/Config/Env
+	url = https://github.com/GAzzinnari/MyFitnessClass-Env
