@@ -8,7 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LoginView: View {
+    
+    @ObservedObject var viewModel: LoginViewModel
+    
+    init(viewModel: LoginViewModel) {
+        self.viewModel = viewModel
+    }
+    
     @State private var email = ""
     @State private var password = ""
     
@@ -43,7 +50,11 @@ struct ContentView: View {
             }
             .padding([.leading, .trailing], 15.0)
             
-            Button(action:{}) {
+            Button(action:{
+                self.viewModel.loginAttempt(
+                    credentials: Login(email: self.email, password: self.password)
+                )
+            }) {
                 Text("Login")
                     .font(.headline)
                     .foregroundColor(.white)
@@ -62,10 +73,4 @@ struct ContentView: View {
         .background(Color(.black))
     }
     
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
 }

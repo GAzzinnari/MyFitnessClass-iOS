@@ -20,9 +20,9 @@ protocol SenseApiFetchable {
 
 class SenseApiFetcher {
     
-    private let serviceHelper: ServiceHelperProtocol
+    private let serviceHelper: RestServiceHelper
     
-    init(serviceHelper: ServiceHelperProtocol) {
+    init(serviceHelper: RestServiceHelper) {
         self.serviceHelper = serviceHelper
     }
     
@@ -31,7 +31,7 @@ class SenseApiFetcher {
 extension SenseApiFetcher: SenseApiFetchable {
 
     func login(credentials: Login) -> AnyPublisher<Token, ServiceError> {
-        return self.serviceHelper.postRequest(with: Endpoints.loginEndpoint.rawValue, body: credentials)
+        return self.serviceHelper.postRequest(with: Endpoints.loginEndpoint.rawValue, body: credentials, of: Token.self)
     }
 //    
 //    func userInfo(token: Token) -> AnyPublisher<User, ServiceError> {

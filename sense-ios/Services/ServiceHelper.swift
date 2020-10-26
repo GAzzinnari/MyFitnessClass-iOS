@@ -9,10 +9,10 @@
 import Foundation
 import Combine
 
-protocol ServiceHelperProtocol {
+protocol RestServiceHelper {
     
     func getRequest<T>(with components: URLComponents) -> AnyPublisher<T, ServiceError> where T: Decodable
-    func postRequest<T, K>(with url: String, body: K) -> AnyPublisher<T, ServiceError> where T: Decodable, K: Encodable
+    func postRequest<T, K>(with url: String, body: K, of type: T.Type) -> AnyPublisher<T, ServiceError> where T: Decodable, K: Encodable
     
 }
 
@@ -26,7 +26,7 @@ class ServiceHelper  {
     
 }
 
-extension ServiceHelper: ServiceHelperProtocol {
+extension ServiceHelper: RestServiceHelper {
     
     func getRequest<T>(with components: URLComponents) -> AnyPublisher<T, ServiceError> where T : Decodable {
         guard let url = components.url else {
@@ -44,7 +44,7 @@ extension ServiceHelper: ServiceHelperProtocol {
             .eraseToAnyPublisher()
     }
     
-    func postRequest<T, K>(with url: String, body: K) -> AnyPublisher<T, ServiceError> where T: Decodable, K: Encodable {
+    func postRequest<T, K>(with url: String, body: K, of type: T.Type) -> AnyPublisher<T, ServiceError> where T: Decodable, K: Encodable {
         guard let endpoint = URL.init(string: "url") else {
             let error = ServiceError.network(description: "Couldn't create URL")
             return Fail(error: error).eraseToAnyPublisher()
