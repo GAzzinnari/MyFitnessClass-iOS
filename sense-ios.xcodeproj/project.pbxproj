@@ -13,8 +13,6 @@
 		757EAE7625433D7100AF5187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 757EAE7525433D7100AF5187 /* Assets.xcassets */; };
 		757EAE7925433D7100AF5187 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 757EAE7825433D7100AF5187 /* Preview Assets.xcassets */; };
 		757EAE7C25433D7100AF5187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757EAE7A25433D7100AF5187 /* LaunchScreen.storyboard */; };
-		757EAE8525435C3300AF5187 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757EAE8425435C3300AF5187 /* LoginInteractor.swift */; };
-		757EAE8825435C6C00AF5187 /* LoginBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757EAE8725435C6C00AF5187 /* LoginBuilder.swift */; };
 		757EAE8B25435E0C00AF5187 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757EAE8A25435E0C00AF5187 /* Login.swift */; };
 		757EAE8D2543611800AF5187 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757EAE8C2543611800AF5187 /* User.swift */; };
 		757EAEB425460C1300AF5187 /* SenseApiFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757EAEB325460C1300AF5187 /* SenseApiFetcher.swift */; };
@@ -38,8 +36,6 @@
 		757EAE7825433D7100AF5187 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		757EAE7B25433D7100AF5187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		757EAE7D25433D7100AF5187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		757EAE8425435C3300AF5187 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
-		757EAE8725435C6C00AF5187 /* LoginBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBuilder.swift; sourceTree = "<group>"; };
 		757EAE8A25435E0C00AF5187 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		757EAE8C2543611800AF5187 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		757EAEB325460C1300AF5187 /* SenseApiFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenseApiFetcher.swift; sourceTree = "<group>"; };
@@ -86,10 +82,8 @@
 			children = (
 				757EAE8925435CC600AF5187 /* Entities */,
 				757EAEB225460BD900AF5187 /* Services */,
-				757EAE8325435BE100AF5187 /* Interactor */,
 				757EAEB125460BA800AF5187 /* ViewModel */,
 				757EAEC62546FA0000AF5187 /* View */,
-				757EAE8625435C5E00AF5187 /* Builder */,
 				757EAEC12546469400AF5187 /* Utils */,
 				757EAE6C25433D6F00AF5187 /* AppDelegate.swift */,
 				757EAE6E25433D6F00AF5187 /* SceneDelegate.swift */,
@@ -107,22 +101,6 @@
 				757EAE7825433D7100AF5187 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		757EAE8325435BE100AF5187 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				757EAE8425435C3300AF5187 /* LoginInteractor.swift */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		757EAE8625435C5E00AF5187 /* Builder */ = {
-			isa = PBXGroup;
-			children = (
-				757EAE8725435C6C00AF5187 /* LoginBuilder.swift */,
-			);
-			path = Builder;
 			sourceTree = "<group>";
 		};
 		757EAE8925435CC600AF5187 /* Entities */ = {
@@ -248,7 +226,6 @@
 				757EAEC0254624B200AF5187 /* ServiceHelper.swift in Sources */,
 				757EAEB625460C8F00AF5187 /* Token.swift in Sources */,
 				757EAEBA2546128500AF5187 /* ScheduledClass.swift in Sources */,
-				757EAE8825435C6C00AF5187 /* LoginBuilder.swift in Sources */,
 				757EAEB425460C1300AF5187 /* SenseApiFetcher.swift in Sources */,
 				757EAE6D25433D6F00AF5187 /* AppDelegate.swift in Sources */,
 				757EAEBC25461EF300AF5187 /* ScheduleRequest.swift in Sources */,
@@ -256,7 +233,6 @@
 				757EAEC3254646B400AF5187 /* ParserHelper.swift in Sources */,
 				757EAEC82546FA5800AF5187 /* LoginViewModel.swift in Sources */,
 				757EAE8D2543611800AF5187 /* User.swift in Sources */,
-				757EAE8525435C3300AF5187 /* LoginInteractor.swift in Sources */,
 				757EAE6F25433D6F00AF5187 /* SceneDelegate.swift in Sources */,
 				757EAE8B25435E0C00AF5187 /* Login.swift in Sources */,
 				757EAEC525465BD500AF5187 /* Endpoints.swift in Sources */,

@@ -31,7 +31,11 @@ struct LoginView: View {
             
             VStack(alignment: .leading, spacing: 15) {
                 
-                TextField("Email", text: self.$email)
+                TextField("Email", text: Binding(
+                    get: { self.email },
+                    set: { string in
+                        self.email = string.lowercased()
+                    }))
                     .padding()
                     .cornerRadius(10.0)
                     .background(Color(.white))
@@ -51,9 +55,8 @@ struct LoginView: View {
             .padding([.leading, .trailing], 15.0)
             
             Button(action:{
-                self.viewModel.loginAttempt(
-                    credentials: Login(email: self.email, password: self.password)
-                )
+                self.viewModel.loginAttempt(credentials:
+                    Login(email: self.email, password: self.password))
             }) {
                 Text("Login")
                     .font(.headline)

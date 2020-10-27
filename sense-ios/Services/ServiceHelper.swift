@@ -45,17 +45,19 @@ extension ServiceHelper: RestServiceHelper {
     }
     
     func postRequest<T, K>(with url: String, body: K, of type: T.Type) -> AnyPublisher<T, ServiceError> where T: Decodable, K: Encodable {
-        guard let endpoint = URL.init(string: "url") else {
+        guard let endpoint = URL.init(string: url) else {
             let error = ServiceError.network(description: "Couldn't create URL")
             return Fail(error: error).eraseToAnyPublisher()
         }
         guard let jsonData = try? JSONEncoder().encode(body) else {
             let error = ServiceError.serializing(description: "Couldn't serialize the body object as JSON")
             return Fail(error: error).eraseToAnyPublisher()
-        }
+        }                
         
         var request = URLRequest(url: endpoint)
-        request.httpMethod = "Post"
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.setValue("*/*", forHTTPHeaderField: "Accept")
+        request.httpMethod = "POST"
         request.httpBody = jsonData
         
         return session.dataTaskPublisher(for: request)
